@@ -43,8 +43,66 @@ body {
   }
 }
 
+.footer{  
+  background-color: rgba(27, 27, 27, 0.15);
+  backdrop-filter: blur(5px);
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  position:absolute;
+  left:0;
+  margin-top:20% ;
 
-------------------------- Separate line -------------------------
+
+  .MDG p{
+    text-shadow: 0px 0px 5px 0px black;
+    display: inline-block;
+    font-size: 14px;
+    color: #a5a5a5;
+    margin-bottom: 25px;
+  }
+
+
+  .social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 10px;
+  }
+
+  .social a{
+    margin: 0 10px;
+    color: #a5a5a5;
+    display: inline-block;
+    font-size: 24px;
+    line-height: 38px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border: 2px solid #383838;
+    border-radius: 50%;
+    margin: 0px 8px 20px 8px;
+    
+  }
+
+  .social a:hover{
+    color: #f80000;
+  }
+
+
+  
+
+  
+}
+
+
+/* ------------------------- Separate line ------------------------- */
 
 /* .circular-menu {
   font-size: 20px;
@@ -142,3 +200,4 @@ body {
 .circular-menu__item:focus {
   color: #8b0000;
 } */
+

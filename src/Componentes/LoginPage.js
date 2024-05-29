@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 function LoginForm() {
     return (
         <div className="page">
@@ -17,6 +18,7 @@ function LoginForm() {
                 <a href="/">Esqueci minha senha</a>
 
                 <input type="submit" value="Acessar" className="btn" />
+                <a href='/register' className='btn-register'>Criar Conta</a>
             </form>
         </div>
     );
